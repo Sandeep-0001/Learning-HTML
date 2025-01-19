@@ -1,1 +1,1 @@
-# Small portfolio project while leaqrning HTML
+# Small portfolio project while learning HTML

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <!-- <form action="">
+        <label for="name">Name</label>
+        <input type="text">
+        <input type="date">
+        <br>
+        <label for="first" >A</label>
+        <input type="radio" name="abc"><br>
+        <label for="first" >B</label>
+        <input type="radio" name="abc"><br>
+        
+        <label for="first" >C</label>
+        <input type="radio" name="abc"><br>
+        <select name="" id="">
+            <option value="apple">apple</option>
+        <option value="mango">mango</option>
+        <option value="grapes">grapes</option>
+        <option value="lichi">lichi</option>
+        </select> -->
+        
+    <!-- </form> -->
+
+
+    <form action="#">
+    
+        <h1 style="text-align: center;"><u>Registration Form</u></h1>
+        <h1>Personal Details</h1>
+    
+        <label for="fullname">Full Name *</label><br>
+        <input type="text" id="fullname" name="fullname" required><br><br>
+    
+        <label for="email">Email *</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+    
+        <label for="phone">Phone *</label><br>
+        <input type="tel" id="phone" name="phone" placeholder="10-digit number"><br><br>
+    
+        <label for="dob">Date of Birth</label><br>
+        <input type="date" id="dob" name="dob"><br><br>
+    
+        <br>
+    
+    
+        <h1>College Information</h1>
+    
+        <label for="college">College Name *</label><br>
+        <input type="text" id="college" name="college" required><br><br>
+    
+        <label for="dept">Department *</label><br>
+        <select id="dept" name="department" required>
+            <option value="">-- Select Department --</option>
+            <option value="cse">CSE</option>
+            <option value="ece">ECE</option>
+            <option value="mech">Mechanical</option>
+            <option value="civil">Civil</option>
+            <option value="it">IT</option>
+            <option value="other">Other</option>
+        </select><br><br>
+    
+        <span>Year *</span><br>
+        <label><input type="radio" name="year" value="1" required> 1st</label><br>
+        <label><input type="radio" name="year" value="2"> 2nd</label><br>
+        <label><input type="radio" name="year" value="3"> 3rd</label><br>
+        <label><input type="radio" name="year" value="4"> 4th</label><br><br>
+    
+        <br>
+    
+    
+        <div> Choose Events</div>
+        <label><input type="checkbox" name="events" value="hackathon"> Hackathon</label><br>
+        <label><input type="checkbox" name="events" value="quiz"> Tech Quiz</label><br>
+        <label><input type="checkbox" name="events" value="coding"> Coding Challenge</label><br>
+        <label><input type="checkbox" name="events" value="workshop"> Workshop</label><br>
+    
+        <br>
+    
+    
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+</html>
